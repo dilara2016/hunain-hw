@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Leap Year Checker</title>
+</head>
+<body>
+    <h1>Check if a Year is a Leap Year</h1>
+    <form method="POST">
+        <label for="year">Enter a year:</label>
+        <input type="text" id="year" name="year" required>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if result %}
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+
+</html>
